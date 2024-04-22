@@ -32,7 +32,7 @@ body {
 
 .estrela {
     background-color: var(--dark-blue);
-    width: 48;
+    width: 48px;
     height: 48px;
 
     display: flex;
