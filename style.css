@@ -85,14 +85,24 @@ body {
     background-color:var(--light-grey);
 }
 
-.card > button {
+.card > a {
+display: block;
 width: 100%;
 padding: 3px;
 background-color: var(--orange);
+border: none;
+border-radius: 22px;
 
 font-size: 15px;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 2px;
 color: var(--white);
+text-align: center;
+text-decoration: none;
+}
+.card>a:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
 }
