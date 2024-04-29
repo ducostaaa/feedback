@@ -6,5 +6,5 @@ let botoes = document.querySelectorAll(".botoes button")
 function guardarNota(){
         let nota = evento.target.innerText
 
-        console.log(nota)
+localStorage.setItem("nota", nota)
 }
